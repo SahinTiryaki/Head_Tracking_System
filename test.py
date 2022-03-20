@@ -2,7 +2,7 @@ from warnings import filterwarnings
 from whenet import WHENet
 import cv2
 import os 
-from demo import process_detection
+from Predict import process_detection
 whenet = WHENet(snapshot="WheNet model path ...")
 video_path = "..."
 
