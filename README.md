@@ -6,11 +6,11 @@
 
 ## Algorithm
 
-**MediPipe Face detection + Face Aligment + WHENet + RandomForestClassifier** <br>
+**Face detection + Face Aligment + WHENet + RandomForestClassifier** <br>
 We obtained Pitch and Yaw values with WHENet. Then we trained the Random Forest architecture using Pitch and Yaw values. With the trained model, where it faces (right-left-straight-down) was determined.
 
-1) Detect Face with MediaPipe Face Detection <br>
-2) Apply Face Aligment using MediaPipe Face Mesh Coordinates<br>
+1) Detect Face with  Face Detection Model <br>
+2) Apply Face Aligment using Face Mesh Coordinates<br>
 3) Obtain the pitch-yaw values ​​using the WHeNet model <br>
 4) Classify where it's looking using the Random Forest model.<br>
 
